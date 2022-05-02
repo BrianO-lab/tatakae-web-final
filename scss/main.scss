@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Comic Neue";
+}
+body {
+	ul {
+		list-style: none;
+		li {
+			a {
+				text-decoration: none;
+				color: black;
+				&:hover {
+					color: black !important;
+				}
+			}
+		}
+	}
+}
+
+@import "header";
