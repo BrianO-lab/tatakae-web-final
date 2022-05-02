@@ -1,0 +1,69 @@
+/* -------------------- Imagen Principal -------------------- */
+
+.imagen-principal {
+  width: 100%;
+  overflow: hidden;
+}
+
+.img-prin-index {
+  height: 55rem;
+}
+
+.img-prin-otro {
+  height: 40rem;
+}
+
+.imagen-principal__img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: -10;
+  object-fit: cover;
+  object-position: center;
+  border-bottom: 0.125rem solid black;
+}
+
+/* ---------- Cuadro principal ----------*/
+.cuadro-imagen {
+  width: 85rem;
+  height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.noti-principal {
+  bottom: 8rem;
+  position: relative;
+  border: 0.125rem solid black;
+  width: 60%;
+  background-color: white;
+}
+
+.noti-principal__cuadro-principal {
+  padding: 1.25rem;
+}
+
+.noti-principal__cuadro-principal-titulo {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.noti-principal__cuadro-principal-nombre {
+  font-weight: 900;
+  font-size: 3rem;
+  margin-top: 0.5rem;
+}
+
+.noti-principal__bottom-autor {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.noti-principal__bottom {
+  display: flex;
+  justify-content: space-between;
+}

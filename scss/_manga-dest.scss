@@ -1,0 +1,56 @@
+
+/* -------------------- Serie de manga Destacado -------------------- */
+.serie-manga-desta__fondo {
+  background-color: #b1e9f3;
+  height: 41rem;
+  overflow: hidden;
+}
+
+.serie-manga-desta__fondo-img {
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: darken;
+  object-fit: cover;
+
+}
+
+.serie-manga-desta__contenido-top {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
+.serie-manga-desta__contenido-top-pre-titulo {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.serie-manga-desta__contenido-top-titulo {
+  font-weight: 900;
+  font-size: 5.5rem;
+
+}
+
+.serie-manga-desta__contenido-top-autor {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.serie-manga-desta__contenido-bottom-texto {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.serie-manga-desta__contenido-bottom-texto--info {
+  margin-top: 1rem;
+}
+
+.serie-manga-desta__contenido-bottom-texto--descripcion {
+  margin-top: 1rem;
+}
+
+.serie-manga-desta__contenido-bottom-flecha {
+  display: flex;
+  justify-content: flex-start;
+}

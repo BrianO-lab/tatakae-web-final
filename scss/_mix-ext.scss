@@ -1,0 +1,64 @@
+
+/* -------------------- Flecha Ver -------------------- */
+.flecha__ver {
+  display: flex;
+  border: 0.125rem solid black;
+}
+
+.flecha__ver-a {
+  font-weight: 900;
+  margin: auto;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 0.70rem;
+}
+
+.flecha__ver-a-flecha {
+  width: 2.75rem;
+  height: 2.5rem;
+}
+
+#flecha {
+  border-left: 0.125rem solid black;
+  width: 2.75rem;
+  height: 2.5rem;
+}
+
+.flecha__ver:hover {
+  background-color: white;
+  filter: invert(100%);
+}
+
+/* -------------------- Modificador del rectangulo de "Ver Mas" -------------------- */
+
+.bottom__ver-mas {
+  display: flex;
+  border-top: 0.3rem solid black;
+  margin-top: 1rem;
+  justify-content: flex-end;
+}
+
+
+.bottom__ver-mas--div {
+  display: flex;
+  border: 0.125rem solid black;
+  margin-top: 2rem;
+}
+
+.bottom__ver-mas-a {
+  font-weight: 900;
+  margin: auto;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 0.70rem;
+}
+
+.bottom__ver-mas-a-flecha {
+  width: 2.75rem;
+  height: 2.5rem;
+}
+
+.bottom__ver-mas--div:hover {
+  background-color: white;
+  filter: invert(100%);
+}
