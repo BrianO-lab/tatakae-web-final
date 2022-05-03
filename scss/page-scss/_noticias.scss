@@ -1,0 +1,65 @@
+
+/* ---------- Noticias ---------- */
+
+/* ---------- fila de 3 noticias ---------- */
+
+.noticias__articulos-ul {
+
+  overflow-x: auto;
+
+}
+
+.noticias__articulos-ul-li {
+  min-width: 422px;
+}
+
+.noticias__articulos-recorte-img {
+  overflow: hidden;
+  height: 317px;
+  margin-top: 0.75rem;
+
+}
+
+.noticias__articulos-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.noticias__articulos-fecha {
+  margin-top: 0.45rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.noticias__articulos-tipo {
+  margin-top: 1.25rem;
+}
+
+.noticias__articulos-titulo {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+/* .noticias__articulos--3 {
+  margin-left: 2.178rem;
+} */
+
+.noticias__articulos-ul-li:hover {
+  background-color: #e6e6e6;
+}
+
+.noticias__articulo-seg-fila {
+  margin-top: 3rem;
+  overflow-x: auto;
+}
+
+.noticias__articulo-ter-fila {
+  margin-top: 3rem;
+}
+
+
+/* ---------- fila de 4 noticias ---------- */
