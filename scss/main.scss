@@ -19,7 +19,15 @@ body {
 	}
 }
 
+@import "variables";
 @import "header";
 @import "form";
 @import "footer";
+@import "mix-ext";
+@import "manga-dest";
+@import "prod-desc";
+@import "responsive";
 @import "page-scss/index";
+@import "page-scss/nosotros";
+@import "page-scss/noticias";
+

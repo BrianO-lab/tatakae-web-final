@@ -121,6 +121,164 @@ body ul {
   filter: invert(100%);
   padding: 2rem; }
 
+/* -------------------- Flecha Ver -------------------- */
+.flecha__ver {
+  display: flex;
+  border: 0.125rem solid black; }
+
+.flecha__ver-a {
+  font-weight: 900;
+  margin: auto;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 0.70rem; }
+
+.flecha__ver-a-flecha {
+  width: 2.75rem;
+  height: 2.5rem; }
+
+#flecha {
+  border-left: 0.125rem solid black;
+  width: 2.75rem;
+  height: 2.5rem; }
+
+.flecha__ver:hover {
+  background-color: white;
+  filter: invert(100%); }
+
+/* -------------------- Modificador del rectangulo de "Ver Mas" -------------------- */
+.bottom__ver-mas {
+  display: flex;
+  border-top: 0.3rem solid black;
+  margin-top: 1rem;
+  justify-content: flex-end; }
+
+.bottom__ver-mas--div {
+  display: flex;
+  border: 0.125rem solid black;
+  margin-top: 2rem; }
+
+.bottom__ver-mas-a {
+  font-weight: 900;
+  margin: auto;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 0.70rem; }
+
+.bottom__ver-mas-a-flecha {
+  width: 2.75rem;
+  height: 2.5rem; }
+
+.bottom__ver-mas--div:hover {
+  background-color: white;
+  filter: invert(100%); }
+
+/* -------------------- Serie de manga Destacado -------------------- */
+.serie-manga-desta__fondo {
+  background-color: #b1e9f3;
+  height: 41rem;
+  overflow: hidden; }
+
+.serie-manga-desta__fondo-img {
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: darken;
+  object-fit: cover; }
+
+.serie-manga-desta__contenido-top {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-bottom: auto; }
+
+.serie-manga-desta__contenido-top-pre-titulo {
+  font-weight: 700;
+  font-size: 1.5rem; }
+
+.serie-manga-desta__contenido-top-titulo {
+  font-weight: 900;
+  font-size: 5.5rem; }
+
+.serie-manga-desta__contenido-top-autor {
+  font-weight: 500;
+  font-size: 1.4rem; }
+
+.serie-manga-desta__contenido-bottom-texto {
+  font-weight: 500;
+  font-size: 1.2rem; }
+
+.serie-manga-desta__contenido-bottom-texto--info {
+  margin-top: 1rem; }
+
+.serie-manga-desta__contenido-bottom-texto--descripcion {
+  margin-top: 1rem; }
+
+.serie-manga-desta__contenido-bottom-flecha {
+  display: flex;
+  justify-content: flex-start; }
+
+/* -------------------- Producto para descubrir -------------------- */
+.producto-descubrir {
+  margin-top: 5rem; }
+
+.producto-descubrir__pre-titulo {
+  font-weight: 700;
+  font-size: 1.25rem; }
+
+.producto-descubrir__titulo {
+  font-weight: 900;
+  font-size: 3rem;
+  padding-top: 0.5rem; }
+
+.producto-descubrir__item {
+  display: flex;
+  margin-top: 1.5rem;
+  overflow-x: scroll; }
+
+.producto-descubrir__item-li {
+  display: flex;
+  flex-direction: column; }
+
+.producto-descubrir-2,
+.producto-descubrir-3,
+.producto-descubrir-4 {
+  margin-left: 1.4rem; }
+
+.producto-descubrir__item-li-fondo {
+  background-color: #e6e6e6;
+  height: 386px;
+  width: 311px; }
+
+.producto-descubrir__item-li-fondo:hover {
+  background-color: #c9c9c9;
+  transition: 0.5s; }
+
+.producto-descubrir__item-li-fondo-img {
+  width: 215px;
+  height: 286px;
+  margin: 3rem;
+  width: auto;
+  box-shadow: 2px 2px 2px #45454578; }
+
+.producto-descubrir__item-li-titulo {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  max-width: fit-content; }
+
+.producto-descubrir__item-comprar {
+  max-width: fit-content;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  padding: 0.25rem; }
+
+.producto-descubrir__item-comprar-a {
+  border-bottom: 0.125rem solid black; }
+
+.producto-descubrir__item-comprar-a:hover {
+  border: 0.125rem solid black;
+  transition: 0.08s; }
+
 /* -------------------- Imagen Principal -------------------- */
 .imagen-principal {
   width: 100%;
@@ -178,3 +336,78 @@ body ul {
 .noti-principal__bottom {
   display: flex;
   justify-content: space-between; }
+
+/* ---------------------
+------- Nosotros -------
+--------------------- */
+.about-tatakae__titulo-h1 {
+  font-size: 6rem;
+  font-weight: 900; }
+
+.about-tatakae__parrafo-1--h2 {
+  font-size: 3.25rem;
+  font-weight: 700; }
+
+.about-tatakae__parrafo-1--p {
+  font-size: 1.45rem; }
+
+.about-tatakae__parrafo-2--h2 {
+  font-size: 3.25rem;
+  font-weight: 700; }
+
+.about-tatakae__parrafo-2--strong {
+  font-size: 1.45rem; }
+
+.about-tatakae__parrafo-2--p-2 {
+  font-size: 1.45rem; }
+
+.about-tatakae__parrafo-2--p {
+  font-size: 1.45rem; }
+
+/* ---------- Noticias ---------- */
+/* ---------- fila de 3 noticias ---------- */
+.noticias__articulos-ul {
+  overflow-x: auto; }
+
+.noticias__articulos-ul-li {
+  min-width: 422px; }
+
+.noticias__articulos-recorte-img {
+  overflow: hidden;
+  height: 317px;
+  margin-top: 0.75rem; }
+
+.noticias__articulos-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center; }
+
+.noticias__articulos-fecha {
+  margin-top: 0.45rem;
+  font-size: 1rem;
+  font-weight: 700; }
+
+.noticias__articulos-tipo {
+  margin-top: 1.25rem; }
+
+.noticias__articulos-titulo {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 900; }
+
+/* .noticias__articulos--3 {
+  margin-left: 2.178rem;
+} */
+.noticias__articulos-ul-li:hover {
+  background-color: #e6e6e6; }
+
+.noticias__articulo-seg-fila {
+  margin-top: 3rem;
+  overflow-x: auto; }
+
+.noticias__articulo-ter-fila {
+  margin-top: 3rem; }
+
+/* ---------- fila de 4 noticias ---------- */
