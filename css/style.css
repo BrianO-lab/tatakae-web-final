@@ -12,6 +12,8 @@ body ul {
     body ul li a:hover {
       color: black !important; }
 
+/* ---------- colores ---------- */
+/* ---------- colores fondo gris ---------- */
 /* ---------------------------------- Header ---------------------------------------- */
 .header {
   background-color: white;
@@ -173,9 +175,11 @@ body ul {
   background-color: white;
   filter: invert(100%); }
 
+/* ---------- colores ---------- */
+/* ---------- colores fondo gris ---------- */
 /* -------------------- Serie de manga Destacado -------------------- */
 .serie-manga-desta__fondo {
-  background-color: #b1e9f3;
+  background-color: #B1E9F3;
   height: 41rem;
   overflow: hidden; }
 
@@ -217,6 +221,8 @@ body ul {
   display: flex;
   justify-content: flex-start; }
 
+/* ---------- colores ---------- */
+/* ---------- colores fondo gris ---------- */
 /* -------------------- Producto para descubrir -------------------- */
 .producto-descubrir {
   margin-top: 5rem; }
@@ -411,6 +417,8 @@ body ul {
   margin-top: 3rem; }
 
 /* ---------- fila de 4 noticias ---------- */
+/* ---------- colores ---------- */
+/* ---------- colores fondo gris ---------- */
 /* ---------------------------------- Header ---------------------------------------- */
 .header {
   background-color: white;
@@ -572,9 +580,11 @@ body ul {
   background-color: white;
   filter: invert(100%); }
 
+/* ---------- colores ---------- */
+/* ---------- colores fondo gris ---------- */
 /* -------------------- Serie de manga Destacado -------------------- */
 .serie-manga-desta__fondo {
-  background-color: #b1e9f3;
+  background-color: #B1E9F3;
   height: 41rem;
   overflow: hidden; }
 
@@ -616,6 +626,8 @@ body ul {
   display: flex;
   justify-content: flex-start; }
 
+/* ---------- colores ---------- */
+/* ---------- colores fondo gris ---------- */
 /* -------------------- Producto para descubrir -------------------- */
 .producto-descubrir {
   margin-top: 5rem; }
@@ -908,6 +920,8 @@ body ul {
   .header__logo-a-img {
     height: 40px;
     width: 40px; }
+  .serie-manga-desta__fondo {
+    height: 20rem; }
   .noti-principal__cuadro-principal-titulo {
     font-size: 1rem;
     margin-bottom: 0.25rem; }

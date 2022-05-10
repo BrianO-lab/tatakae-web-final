@@ -1,7 +1,8 @@
+@import "variables";
 
 /* -------------------- Serie de manga Destacado -------------------- */
 .serie-manga-desta__fondo {
-  background-color: #b1e9f3;
+  background-color: $color-celeste;
   height: 41rem;
   overflow: hidden;
 }
