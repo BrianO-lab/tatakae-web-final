@@ -838,12 +838,6 @@ body ul {
   .about-tatakae__titulo-h1 {
     font-size: 5rem; } }
 
-@media only screen and (max-width: 1280px) {
-  .noticias__articulos-ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem; } }
-
 @media only screen and (max-width: 991px) {
   .header__logo-titulo-logo {
     margin: 0; }
