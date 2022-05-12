@@ -3,15 +3,16 @@
 
 /* ---------- fila de 3 noticias ---------- */
 
-.noticias__articulos-ul{
- 
+.noticias__articulos-3-ul{
   display: grid;
   grid-template-columns: repeat( 3, 1fr);
   gap: 1rem;
-
-
 }
-
+.noticias__articulos-4-ul{
+  display: grid;
+  grid-template-columns: repeat( 4, 1fr);
+  gap: 1rem;
+}
 
 .noticias__articulos-ul-li {
 

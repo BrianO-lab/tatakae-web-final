@@ -253,4 +253,9 @@
      font-size: 1rem;
   }
 
+  .noticias__articulos-3-ul, .noticias__articulos-4-ul{
+   display: grid;
+   grid-template-columns: auto;
+ }
+
 }
