@@ -16,28 +16,20 @@
   padding-top: 0.5rem;
 }
 
+/* -------------------- Articulos -------------------- */
+
 .producto-descubrir__item {
-  display: flex;
-  margin-top: 1.5rem;
-  overflow-x: scroll;
+  display: grid;
+  grid-template-columns: repeat( 4, 1fr);
+  gap: 1rem;
 }
 
-.producto-descubrir__item-li {
-  display: flex;
-  flex-direction: column;
 
-}
 
-.producto-descubrir-2,
-.producto-descubrir-3,
-.producto-descubrir-4 {
-  margin-left: 1.4rem;
-}
 
 .producto-descubrir__item-li-fondo {
   background-color: $color-gris-claro;
   height: 386px;
-  width: 311px;
 }
 
 .producto-descubrir__item-li-fondo:hover {
@@ -46,10 +38,10 @@
 }
 
 .producto-descubrir__item-li-fondo-img {
-  width: 215px;
+  
   height: 286px;
   margin: 3rem;
-  width: auto;
+  
   box-shadow: 2px 2px 2px #45454578;
 
 }
