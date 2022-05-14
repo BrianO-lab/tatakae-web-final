@@ -24,12 +24,12 @@
   gap: 1rem;
 }
 
-
-
-
 .producto-descubrir__item-li-fondo {
   background-color: $color-gris-claro;
-  height: 386px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .producto-descubrir__item-li-fondo:hover {
@@ -38,8 +38,29 @@
 }
 
 .producto-descubrir__item-li-fondo-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  height: 300px; 
   
+}
+
+.producto-descubrir__item-li-titulo {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  max-width: fit-content;
+}
+
+.producto-descubrir__item-comprar {
+  max-width: fit-content;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  padding: 0.25rem;
+}
+
+.producto-descubrir__item-comprar-a {
+  border-bottom: 0.125rem solid black;
+}
+
+.producto-descubrir__item-comprar-a:hover {
+  border: 0.125rem solid black;
+  transition: 0.08s;
 }

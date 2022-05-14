@@ -244,16 +244,36 @@ body ul {
 
 .producto-descubrir__item-li-fondo {
   background-color: #e6e6e6;
-  height: 386px; }
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .producto-descubrir__item-li-fondo:hover {
   background-color: #c9c9c9;
   transition: 0.5s; }
 
 .producto-descubrir__item-li-fondo-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
+  height: 300px; }
+
+.producto-descubrir__item-li-titulo {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  max-width: fit-content; }
+
+.producto-descubrir__item-comprar {
+  max-width: fit-content;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  padding: 0.25rem; }
+
+.producto-descubrir__item-comprar-a {
+  border-bottom: 0.125rem solid black; }
+
+.producto-descubrir__item-comprar-a:hover {
+  border: 0.125rem solid black;
+  transition: 0.08s; }
 
 /* -------------------- Imagen Principal -------------------- */
 .imagen-principal {
@@ -626,16 +646,36 @@ body ul {
 
 .producto-descubrir__item-li-fondo {
   background-color: #e6e6e6;
-  height: 386px; }
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .producto-descubrir__item-li-fondo:hover {
   background-color: #c9c9c9;
   transition: 0.5s; }
 
 .producto-descubrir__item-li-fondo-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
+  height: 300px; }
+
+.producto-descubrir__item-li-titulo {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  max-width: fit-content; }
+
+.producto-descubrir__item-comprar {
+  max-width: fit-content;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  padding: 0.25rem; }
+
+.producto-descubrir__item-comprar-a {
+  border-bottom: 0.125rem solid black; }
+
+.producto-descubrir__item-comprar-a:hover {
+  border: 0.125rem solid black;
+  transition: 0.08s; }
 
 /* -------------------- Imagen Principal -------------------- */
 .imagen-principal {
@@ -794,7 +834,17 @@ body ul {
     font-weight: 500;
     font-size: 1rem; }
   .about-tatakae__titulo-h1 {
-    font-size: 5rem; } }
+    font-size: 5rem; }
+  .producto-descubrir__item-li-fondo {
+    height: 350px; }
+  .producto-descubrir__item-li-fondo-img {
+    height: 250px; } }
+
+@media only screen and (max-width: 1199px) {
+  .producto-descubrir__item-li-fondo {
+    height: 300px; }
+  .producto-descubrir__item-li-fondo-img {
+    height: 225px; } }
 
 @media only screen and (max-width: 991px) {
   .header__logo-titulo-logo {
@@ -817,6 +867,12 @@ body ul {
     border-left: none; }
   .footer {
     padding: 1rem; } }
+
+@media only screen and (max-width: 768px) {
+  .producto-descubrir__item-li-fondo {
+    height: 220px; }
+  .producto-descubrir__item-li-fondo-img {
+    height: 160px; } }
 
 @media only screen and (max-width: 695px) {
   .noti-principal {
@@ -859,7 +915,15 @@ body ul {
   .producto-descubrir__titulo {
     font-size: 2.5rem; }
   .producto-descubrir__item {
-    margin-top: 1rem; } }
+    margin-top: 1rem; }
+  .producto-descubrir__item {
+    overflow: scroll; }
+  .producto-descubrir__item-li-fondo {
+    width: 300px;
+    height: 400px; }
+  .producto-descubrir__item-li-fondo-img {
+    width: 200px;
+    height: 300px; } }
 
 @media only screen and (max-width: 489px) {
   .imagen-principal {
