@@ -822,6 +822,9 @@ body ul {
 .noticias__articulo-ter-fila {
   margin-top: 3rem; }
 
+.liros-h1 {
+  font-size: 4rem; }
+
 @media only screen and (max-width: 1399px) {
   .imagen-principal {
     height: 45rem; }
