@@ -287,7 +287,7 @@ body ul {
   height: 40rem; }
 
 .img-prin-libro {
-  height: 40rem; }
+  height: 28rem; }
 
 .imagen-principal__img {
   width: 100%;
@@ -339,7 +339,7 @@ body ul {
 /* ---------------------
 ------- Nosotros -------
 --------------------- */
-.about-tatakae__titulo-h1 {
+.titulo-princ-pagina-h1 {
   font-size: 6rem;
   font-weight: 900; }
 
@@ -692,7 +692,7 @@ body ul {
   height: 40rem; }
 
 .img-prin-libro {
-  height: 40rem; }
+  height: 28rem; }
 
 .imagen-principal__img {
   width: 100%;
@@ -744,7 +744,7 @@ body ul {
 /* ---------------------
 ------- Nosotros -------
 --------------------- */
-.about-tatakae__titulo-h1 {
+.titulo-princ-pagina-h1 {
   font-size: 6rem;
   font-weight: 900; }
 
@@ -839,7 +839,7 @@ body ul {
   .serie-manga-desta__contenido-bottom-texto {
     font-weight: 500;
     font-size: 1rem; }
-  .about-tatakae__titulo-h1 {
+  .titulo-princ-pagina-h1 {
     font-size: 5rem; }
   .producto-descubrir__item-li-fondo {
     height: 350px; }
@@ -878,15 +878,15 @@ body ul {
   .producto-descubrir__item-li-fondo {
     height: 220px; }
   .producto-descubrir__item-li-fondo-img {
-    height: 160px; } }
+    height: 160px; }
+  .titulo-princ-pagina-h1 {
+    font-size: 4rem; } }
 
 @media only screen and (max-width: 695px) {
   .noti-principal {
     width: 100%; }
   .noti-principal {
     margin-right: 0.5rem; }
-  .about-tatakae__titulo-h1 {
-    font-size: 4rem; }
   .about-tatakae__parrafo-1--h2 {
     font-size: 2.25rem; }
   .about-tatakae__parrafo-1--p {
@@ -966,8 +966,8 @@ body ul {
   .bottom__ver-mas-a-flecha {
     width: 2.25rem;
     height: 2rem; }
-  .about-tatakae__titulo-h1 {
-    font-size: 3rem; }
+  .titulo-princ-pagina-h1 {
+    font-size: 2.5rem; }
   .about-tatakae__parrafo-1--h2 {
     font-size: 1.5rem; }
   .about-tatakae__parrafo-1--p {

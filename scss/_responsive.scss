@@ -40,7 +40,7 @@
      font-size: 1rem;
   }
 
-  .about-tatakae__titulo-h1 {
+  .titulo-princ-pagina-h1 {
      font-size: 5rem;
 
   }
@@ -112,6 +112,9 @@
    .producto-descubrir__item-li-fondo-img{
       height: 160px;
    }
+   .titulo-princ-pagina-h1 {
+      font-size: 4rem;
+   }
 }
 
 @media only screen and (max-width: 695px) {
@@ -121,10 +124,6 @@
 
   .noti-principal {
      margin-right: 0.5rem;
-  }
-
-  .about-tatakae__titulo-h1 {
-     font-size: 4rem;
   }
 
   .about-tatakae__parrafo-1--h2 {
@@ -265,8 +264,8 @@
      height: 2rem;
   }
 
-  .about-tatakae__titulo-h1 {
-     font-size: 3rem;
+  .titulo-princ-pagina-h1 {
+     font-size: 2.5rem;
   }
 
   .about-tatakae__parrafo-1--h2 {
