@@ -308,26 +308,26 @@
   .noticias__articulos-3-ul, .noticias__articulos-4-ul{
    display: grid;
    grid-template-columns: auto;
- }
+  }
 
- .noticias__nav-tipos{
+  .noticias__nav-tipos{
    display: grid;
    grid-gap: 1rem;
    grid-template-columns: auto auto;
- }
+  }
 
- .manga-anime__titulo{
+  .manga-anime__titulo{
     font-size: 2.5rem;
- }
+  } 
 
- .libro-desta__fondo {
+  .libro-desta__fondo {
    height: 32rem;
 
- }
- 
+  }
 
-
-
+  .serie-manga__dest-libros{
+     font-size: 3.5rem;
+  }
  
 
 

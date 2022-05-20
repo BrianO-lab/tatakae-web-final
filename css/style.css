@@ -221,6 +221,15 @@ body ul {
   display: flex;
   justify-content: flex-start; }
 
+/* -------------------- Serie de manga Destacado - Libros -------------------- */
+.serie-manga__dest-libros {
+  font-size: 4rem;
+  font-weight: 900;
+  padding-top: 0.5rem; }
+
+.serie-manga-desta__contenido-bottom-texto p {
+  font-size: 1.15rem; }
+
 /* ---------- colores ---------- */
 /* ---------- colores fondo gris ---------- */
 /* -------------------- Producto para descubrir -------------------- */
@@ -259,6 +268,7 @@ body ul {
 .producto-descubrir__item-li-titulo {
   font-size: 1.5rem;
   margin-top: 0.5rem;
+  font-weight: 900;
   max-width: fit-content; }
 
 .producto-descubrir__item-comprar {
@@ -626,6 +636,15 @@ body ul {
   display: flex;
   justify-content: flex-start; }
 
+/* -------------------- Serie de manga Destacado - Libros -------------------- */
+.serie-manga__dest-libros {
+  font-size: 4rem;
+  font-weight: 900;
+  padding-top: 0.5rem; }
+
+.serie-manga-desta__contenido-bottom-texto p {
+  font-size: 1.15rem; }
+
 /* ---------- colores ---------- */
 /* ---------- colores fondo gris ---------- */
 /* -------------------- Producto para descubrir -------------------- */
@@ -664,6 +683,7 @@ body ul {
 .producto-descubrir__item-li-titulo {
   font-size: 1.5rem;
   margin-top: 0.5rem;
+  font-weight: 900;
   max-width: fit-content; }
 
 .producto-descubrir__item-comprar {
@@ -1020,4 +1040,6 @@ body ul {
   .manga-anime__titulo {
     font-size: 2.5rem; }
   .libro-desta__fondo {
-    height: 32rem; } }
+    height: 32rem; }
+  .serie-manga__dest-libros {
+    font-size: 3.5rem; } }
