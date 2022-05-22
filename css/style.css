@@ -338,6 +338,11 @@ body ul {
   border: 0.125rem solid black;
   transition: 0.08s; }
 
+.serie-manga-desta__fondo--libro {
+  background-color: #E9C1EC;
+  height: 41rem;
+  overflow: hidden; }
+
 /* -------------------- Imagen Principal -------------------- */
 .imagen-principal {
   width: 100%;
@@ -798,6 +803,11 @@ body ul {
 .prox-lanza-manga__item-comprar-a:hover {
   border: 0.125rem solid black;
   transition: 0.08s; }
+
+.serie-manga-desta__fondo--libro {
+  background-color: #E9C1EC;
+  height: 41rem;
+  overflow: hidden; }
 
 /* -------------------- Imagen Principal -------------------- */
 .imagen-principal {
