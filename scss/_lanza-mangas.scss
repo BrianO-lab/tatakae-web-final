@@ -1,0 +1,52 @@
+@import "variables";
+
+
+
+.prox-lanza-manga__artic{
+  background-color: bisque;
+}
+
+
+.prox-lanza-manga {
+  display: grid;
+  grid-template-columns: repeat( 3, 1fr);
+  gap: 1.4625rem;
+}
+.prox-lanza-manga__artic{
+  height: 150px;
+  display: flex;
+}
+.prox-lanza-manga__portada-fondo{
+  width: 110px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-gris-claro;
+}
+
+.prox-lanza-manga__portada-fondo:hover {
+  background-color: $color-gris-oscu;
+  transition: 0.5s;
+}
+
+.prox-lanza-manga__portada-img{
+  width: 70px;
+}
+
+.prox-lanza-manga__info{
+  padding-left: 1rem;
+}
+
+.prox-lanza-manga__item-comprar{
+  margin-top: auto;
+}
+
+.prox-lanza-manga__item-comprar-a {
+  border-bottom: 0.125rem solid black;
+}
+
+.prox-lanza-manga__item-comprar-a:hover {
+  border: 0.125rem solid black;
+  transition: 0.08s;
+}

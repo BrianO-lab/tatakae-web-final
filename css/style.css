@@ -12,6 +12,13 @@ body ul {
     body ul li a:hover {
       color: black !important; }
 
+.hyper-vinculos {
+  color: black;
+  text-decoration: none; }
+
+.hyper-vinculos:hover {
+  color: black !important; }
+
 /* ---------- colores ---------- */
 /* ---------- colores fondo gris ---------- */
 /* ---------------------------------- Header ---------------------------------------- */
@@ -285,6 +292,48 @@ body ul {
   border-bottom: 0.125rem solid black; }
 
 .producto-descubrir__item-comprar-a:hover {
+  border: 0.125rem solid black;
+  transition: 0.08s; }
+
+/* ---------- colores ---------- */
+/* ---------- colores fondo gris ---------- */
+.prox-lanza-manga__artic {
+  background-color: bisque; }
+
+.prox-lanza-manga {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4625rem; }
+
+.prox-lanza-manga__artic {
+  height: 150px;
+  display: flex; }
+
+.prox-lanza-manga__portada-fondo {
+  width: 110px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6; }
+
+.prox-lanza-manga__portada-fondo:hover {
+  background-color: #c9c9c9;
+  transition: 0.5s; }
+
+.prox-lanza-manga__portada-img {
+  width: 70px; }
+
+.prox-lanza-manga__info {
+  padding-left: 1rem; }
+
+.prox-lanza-manga__item-comprar {
+  margin-top: auto; }
+
+.prox-lanza-manga__item-comprar-a {
+  border-bottom: 0.125rem solid black; }
+
+.prox-lanza-manga__item-comprar-a:hover {
   border: 0.125rem solid black;
   transition: 0.08s; }
 
@@ -926,7 +975,11 @@ body ul {
     border-top: 2px solid black;
     border-left: none; }
   .footer {
-    padding: 1rem; } }
+    padding: 1rem; }
+  .prox-lanza-manga {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.4625rem; } }
 
 @media only screen and (max-width: 768px) {
   .producto-descubrir__item-li-fondo {
@@ -985,7 +1038,11 @@ body ul {
     height: 400px; }
   .producto-descubrir__item-li-fondo-img {
     width: 200px;
-    height: 300px; } }
+    height: 300px; }
+  .prox-lanza-manga {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.4625rem; } }
 
 @media only screen and (max-width: 489px) {
   .imagen-principal {

@@ -18,6 +18,13 @@ body {
 		}
 	}
 }
+.hyper-vinculos{
+  color: black;
+	text-decoration: none;
+}
+.hyper-vinculos:hover {
+	color: black !important;
+}
 
 @import "variables";
 @import "header";
@@ -26,6 +33,7 @@ body {
 @import "mix-ext";
 @import "manga-dest";
 @import "prod-desc";
+@import "lanza-mangas";
 @import "page-scss/index";
 @import "page-scss/nosotros";
 @import "page-scss/noticias";
