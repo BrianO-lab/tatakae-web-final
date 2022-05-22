@@ -1,5 +1,10 @@
 @import "variables";
 
+.mangas-h1{
+  font-size: 5rem;
+  font-weight: 700;
+}
+
 .prox-lanza-manga {
   display: grid;
   grid-template-columns: repeat( 3, 1fr);

@@ -297,6 +297,10 @@ body ul {
 
 /* ---------- colores ---------- */
 /* ---------- colores fondo gris ---------- */
+.mangas-h1 {
+  font-size: 5rem;
+  font-weight: 700; }
+
 .prox-lanza-manga {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -752,6 +756,49 @@ body ul {
   border: 0.125rem solid black;
   transition: 0.08s; }
 
+/* ---------- colores ---------- */
+/* ---------- colores fondo gris ---------- */
+.mangas-h1 {
+  font-size: 5rem;
+  font-weight: 700; }
+
+.prox-lanza-manga {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4625rem; }
+
+.prox-lanza-manga__artic {
+  height: 150px;
+  display: flex; }
+
+.prox-lanza-manga__portada-fondo {
+  width: 110px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6; }
+
+.prox-lanza-manga__portada-fondo:hover {
+  background-color: #c9c9c9;
+  transition: 0.5s; }
+
+.prox-lanza-manga__portada-img {
+  width: 70px; }
+
+.prox-lanza-manga__info {
+  padding-left: 1rem; }
+
+.prox-lanza-manga__item-comprar {
+  margin-top: auto; }
+
+.prox-lanza-manga__item-comprar-a {
+  border-bottom: 0.125rem solid black; }
+
+.prox-lanza-manga__item-comprar-a:hover {
+  border: 0.125rem solid black;
+  transition: 0.08s; }
+
 /* -------------------- Imagen Principal -------------------- */
 .imagen-principal {
   width: 100%;
@@ -895,7 +942,8 @@ body ul {
   margin-top: 3rem; }
 
 .liros-h1 {
-  font-size: 4rem; }
+  font-size: 5rem;
+  font-weight: 700; }
 
 .manga-anime__pre-titulo {
   display: block;
@@ -1098,7 +1146,7 @@ body ul {
     grid-gap: 1rem;
     grid-template-columns: auto auto; }
   .manga-anime__titulo {
-    font-size: 2.5rem; }
+    font-size: 2.25rem; }
   .libro-desta__fondo {
     height: 32rem; }
   .serie-manga__dest-libros {
