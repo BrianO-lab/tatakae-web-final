@@ -1008,7 +1008,9 @@ body ul {
   .producto-descubrir__item-li-fondo-img {
     height: 225px; }
   .img-prin-libro {
-    height: 20rem; } }
+    height: 20rem; }
+  .prox-lanza-manga__info-titulo {
+    font-size: 1.45rem; } }
 
 @media only screen and (max-width: 991px) {
   .header__logo-titulo-logo {
