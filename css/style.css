@@ -1064,6 +1064,8 @@ body ul {
   .about-tatakae__parrafo-2--p-2 {
     font-size: 1.25rem; }
   .about-tatakae__parrafo-2--p {
+    font-size: 1.25rem; }
+  .prox-lanza-manga__info-titulo {
     font-size: 1.25rem; } }
 
 @media only screen and (max-width: 575px) {
@@ -1099,7 +1101,9 @@ body ul {
   .prox-lanza-manga {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1.4625rem; } }
+    gap: 1.4625rem; }
+  .prox-lanza-manga__info-titulo {
+    font-size: 1.45rem; } }
 
 @media only screen and (max-width: 489px) {
   .imagen-principal {

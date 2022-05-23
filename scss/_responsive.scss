@@ -175,6 +175,10 @@
      font-size: 1.25rem;
   }
 
+  .prox-lanza-manga__info-titulo{
+   font-size: 1.25rem;
+}
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -232,6 +236,9 @@
    grid-template-columns: 1fr;
    gap: 1.4625rem;
  }
+ .prox-lanza-manga__info-titulo{
+   font-size: 1.45rem;
+}
 
 }
 
